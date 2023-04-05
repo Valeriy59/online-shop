@@ -1,0 +1,94 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 132px;
+    height: 30px;
+}
+.block {
+   display: block;
+    width: 100%;
+}
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.standard {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 132px;
+    height: 30px;
+}
+.large {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 165px;
+    height: 60px;
+}
+
+.disabled {
+    background: #004D99;
+    opacity: 0.5;
+    color: #002E5C;
+}
+
+.default {
+    background: #0066CC;
+    border: 1px solid #0066CC;
+}
+
+.danger {
+    background: #CC1439;
+    border: 1px solid #CC1439;
+}
+
+.success {
+    background: #00fd09;
+    border: 1px solid #0a9900;
+    /*color: #00fd09;*/
+}
+
+.default:hover {
+    background: #0080FF;
+}
+
+.danger:hover {
+    background: #FF1A47;
+}
+
+.success:hover {
+    background: #0a9900;
+    border: 1px solid #00fd09;
+}
+
+
+.default:active {
+    background: #0059B3;
+}
+
+.secondary:active {
+    background: #C9E5FF;
+    border: 1px solid #0066CC;
+}
+
+.red:active {
+    background: #B31232;
+}

@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px){
+    .itemContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        box-shadow: 1px 1px 5px rgba(0,0,0, .2);
+        margin: 10px;
+    }
+}
+.itemContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+    min-width: 250px;
+    min-height: 450px;
+    box-shadow: 1px 1px 5px rgba(0,0,0, .2);
+    margin: 10px;
+}
+
+.itemImageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 70%;
+}
+.itemImage{
+    margin: 10px;
+    width: 90%;
+}
+/*.itemName{*/
+/*    align-self: flex-start;*/
+/*    font-weight: bold;*/
+/*    font-size: 16px;*/
+/*    margin: 5px 10px;*/
+/*    cursor: pointer;*/
+/*}*/
+.itemCategory{
+    display: flex;
+    align-self: flex-start;
+    text-align: left;
+    margin: 5px 10px;
+    font-size: 12px;
+}
+.itemBadge{
+    font-weight: bold;
+    align-self: flex-start;
+    margin: 20px 10px;
+}
